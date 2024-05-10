@@ -1,0 +1,65 @@
+/* Write CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bgContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 8rem;
+  background-position: center;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 22%;
+  align-items: center;
+}
+.stopwatchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 0 4px 16px 0 #bfbfbf;
+  width: 100%;
+  border-radius: 20px;
+  gap: 1rem;
+}
+.timerText {
+  display: flex;
+  gap: 0.6rem;
+}
+.timerText img,
+.timerText p {
+  align-self: center;
+}
+.btnContainer {
+  display: flex;
+  gap: 1.2rem;
+}
+.btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 0 solid;
+  outline: none;
+  color: white;
+}
+.startBtn {
+  background-color: #1db05f;
+}
+.stopBtn {
+  background-color: #ef0d36;
+}
+.restartBtn {
+  background-color: #eaa800;
+}
+.title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.timer {
+  font-size: 32px;
+}
